@@ -1,0 +1,18 @@
+# ─── RMA Bot Server ─────────────────────────────────────
+aiogram>=3.4.1
+aiohttp>=3.9.1
+cryptography>=42.0.0
+
+# ─── RMA Client (Windows/Linux) ─────────────────────────
+pyautogui>=0.9.54      ; sys_platform != 'android'
+Pillow>=10.2.0         ; sys_platform != 'android'
+psutil>=5.9.8          ; sys_platform != 'android'
+websocket-client>=1.7.0
+websockets>=12.0
+
+# ─── Build tooling ───────────────────────────────────────
+pyinstaller>=6.3.0     ; sys_platform != 'android'
+
+# ─── Android (optional — install manually via pip in Kivy env) ──
+# kivy
+# buildozer

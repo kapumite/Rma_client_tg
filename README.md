@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/26491369/README.md)
 # RMA Bot — Remote Machine Administration via Telegram
 
 > **Legal notice** — This tool is for administering **machines you own** or
