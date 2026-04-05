@@ -53,11 +53,11 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 
-BOT_TOKEN     = os.environ.get("BOT_TOKEN", "8558199581:AAEPgk0mTVzD_O6ePCfT_EZ7M-oDbnbzPxw")
-ADMIN_ID      = int(os.environ.get("ADMIN_ID", "5377192509"))          # Your Telegram user ID
+BOT_TOKEN     = os.environ.get("BOT_TOKEN", "вот тут токен")
+ADMIN_ID      = int(os.environ.get("ADMIN_ID", "тут айди"))          # Your Telegram user ID
 WS_HOST       = os.environ.get("WS_HOST", "0.0.0.0")
 WS_PORT       = int(os.environ.get("WS_PORT", "8765"))
-SHARED_SECRET = os.environ.get("SHARED_SECRET", "данилыч")
+SHARED_SECRET = os.environ.get("SHARED_SECRET", "тут пароль")
 MAX_DEVICES   = 50     # hard cap per admin session
 
 logging.basicConfig(
