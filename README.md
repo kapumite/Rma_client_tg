@@ -224,3 +224,4 @@ Add a new command in **three steps**:
        await query.message.answer(str(resp))
        return
    ```
+   eboy
