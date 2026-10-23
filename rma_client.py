@@ -7,9 +7,6 @@
 DEPENDENCIES (Windows/Linux):
   pip install websocket-client pyautogui pillow psutil
 
-DEPENDENCIES (Android – Kivy):
-  buildozer or python-for-android with kivy, requests, websocket-client
-
 USAGE:
   python rma_client.py
 
